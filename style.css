@@ -1,3 +1,4 @@
+/* clear browser formatting, outline all elements so it's easier to see what's going on */
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +12,7 @@ body {
 div {
   float: left;
   height: 100px;
+  width: 100px;
 }
 
 .h400 {
@@ -25,10 +27,8 @@ div {
   width: 200px;
 }
 
-.w100 {
-  width: 100px;
-}
-
+/* Paragraph styling is not really necessary for the exercise, but makes it look cleaner */
 p {
   text-align: center;
+  padding-top: 20px;
 }
